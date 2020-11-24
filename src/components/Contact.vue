@@ -24,9 +24,9 @@
                 <p>
                     Phone:
                     <a
-                        href="tel:something"
+                        href="tel:512-202-6952"
                         class="text-blue-700 border-blue-700 border-b pb-px cursor-pointer hover:text-blue-main"
-                        >something</a
+                        >512-202-6952</a
                     >
                 </p>
             </div>
@@ -52,9 +52,9 @@
             <p>
                 Phone:
                 <a
-                    href="tel:something"
+                    href="tel:512-202-6952"
                     class="text-blue-700 border-blue-700 border-b pb-px cursor-pointer hover:text-blue-main"
-                    >something</a
+                    >512-202-6952</a
                 >
             </p>
         </div>

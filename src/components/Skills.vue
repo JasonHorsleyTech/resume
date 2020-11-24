@@ -23,14 +23,14 @@ export default {
     data() {
         return {
             skills: [
-                { name: 'Front code', list: ['Vue', 'React', 'jQuery', 'Webix'] },
+                { name: 'Frontend code</span>', list: ['Vue', 'React', 'jQuery', 'Webix'] },
 
-                { name: 'Front design', list: ['Tailwind', 'Bootstrap', 'Bulma', 'Scss'] },
+                { name: 'Frontend design', list: ['Tailwind', 'Bootstrap', 'Bulma', 'Scss'] },
 
                 { name: 'Mobile & Desktop', list: ['Vue Native', 'Cordova', 'Livecode', 'Electron'] },
 
                 {
-                    name: 'Back code',
+                    name: 'Backend code',
                     list: ['Laravel', 'Wordpress', 'EmberJS', 'MySQL / Mongo'],
                 },
 

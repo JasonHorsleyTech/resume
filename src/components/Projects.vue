@@ -44,8 +44,8 @@
                 <h3>MicroVentures: Future acquisition integration</h3>
 
                 <p>
-                    MicroVenture's business model moving forwards is in acquiring third party projects and integrating
-                    them into the existing ecosystem. This required a large restructuring of the base user model.
+                    MicroVenture's new business model is in acquiring third party projects and integrating them into the
+                    existing ecosystem. Adapting to this change required a large restructuring of the base user model.
                     Instead of people signing up as "investors" to make investments, they signup as "customers" with
                     "invest property access". While the change seemed somewhat pedantic at first, it soon became clear
                     that it would require much fiddling.
@@ -71,10 +71,10 @@
 
                 <p>
                     Pubbly's main deliverable asset was a javascript based interactive book. It somewhat resembled the
-                    old "escape the room" flash games, but with a little more polish. Each "book" had pages filled with
-                    user interaction zones, requiring a user touch gesture or a drag drop. Each zone would trigger a
-                    sequence of timed events such as animating an image across the page, playing an audio file, starting
-                    a video, or manipulating the visible objects.
+                    old "escape the room" flash games, but more polish. Each "book" had pages filled with user
+                    interaction zones, requiring a user touch gesture or a drag drop. Each zone would trigger a sequence
+                    of timed events such as animating an image across the page, playing an audio file, starting a video,
+                    or manipulating the visible objects.
                 </p>
 
                 <p>
@@ -94,8 +94,9 @@
 
                 <p>
                     I won't claim it was a perfect system. In hindsight, we should simulated network load times from
-                    within the authoring tools from the outset. But it did get the job done, and I am happy to say that
-                    Pubbly is still using much of my original codebase.
+                    within the authoring tools, or simply worked more on communicating browser based limitations to the
+                    rest of the team. But it did get the job done, and I am happy to say that Pubbly is still using much
+                    of my original codebase.
                 </p>
             </div>
         </div>

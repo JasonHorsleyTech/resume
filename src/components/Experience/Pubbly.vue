@@ -11,9 +11,10 @@
         <p>
             I worked to create and improve the Pubbly code base from day one. Their content authoring environment was a
             desktop application written in LiveCode. It exported XML files which could be read and interpreted as
-            "interactive books" via our javascript engine. The books exported to a content management system, written as
-            a custom PHP LAMP stack. That in house management tool was used to structure, map, and bundle each
-            "interactive book" into cordova wrapped android applications.
+            "interactive books" via our javascript engine. The books were managed by a custom LAMP content management
+            system. That in house management tool was used to structure, map, and bundle each "interactive book" into
+            cordova wrapped android applications, and was later retooled to manage external Laravel "marketplace"
+            applications we sold to partner companies.
         </p>
         <p>I managed two other full time developers, and was responsible for all production code</p>
     </div>
