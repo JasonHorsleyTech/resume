@@ -4,10 +4,10 @@
         <div class="flex flex-wrap">
             <div v-for="category in this.skills" :key="category.name" class="w-1/2 md:w-1/3 lg:w-1/3 mb-8">
                 <h3 v-html="category.name" class="border-b border-gray-500 pb-2 mb-2 mr-4 md:mr-20" />
-                <div v-for="skill in category.list" :key="skill" class="group cursor-pointer">
+                <ul v-for="skill in category.list" :key="skill" class="group cursor-pointer">
                     <bullet />
-                    <span class="inline-block ml-2 py-1 text-sm" v-html="skill" />
-                </div>
+                    <li class="inline-block ml-2 py-1 text-sm" v-html="skill" />
+                </ul>
             </div>
         </div>
     </div>

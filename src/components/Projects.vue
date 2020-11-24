@@ -66,7 +66,7 @@
                 </p>
             </div>
 
-            <div class="mb-10">
+            <div class="">
                 <h3>Pubbly: Javascript engine</h3>
 
                 <p>

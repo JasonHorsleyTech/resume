@@ -46,6 +46,7 @@ module.exports = {
   },
   variants: {
     opacity: ['responsive', 'hover', 'group-hover'],
+    margin: ['responsive', 'hover', 'focus', 'last']
   },
 
   plugins: [
