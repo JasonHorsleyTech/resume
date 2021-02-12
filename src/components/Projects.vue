@@ -93,7 +93,7 @@
                 </p>
 
                 <p>
-                    I won't claim it was a perfect system. In hindsight, we should simulated network load times from
+                    I won't claim it was a perfect system. In hindsight, we should have simulated network load times from
                     within the authoring tools, or simply worked more on communicating browser based limitations to the
                     rest of the team. But it did get the job done, and I am happy to say that Pubbly is still using much
                     of my original codebase.
