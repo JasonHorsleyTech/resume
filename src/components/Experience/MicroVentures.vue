@@ -1,7 +1,7 @@
 <template>
     <div>
         <p>
-            MicroVentures is an Austin FinTech company that sells investment opprotunities to their active user base of
+            MicroVentures is an Austin FinTech company that sells investment opportunities to their active user base of
             100,000+ investors.
         </p>
         <p>
@@ -13,7 +13,7 @@
         <p>
             Most of the projects are Laravel and Vue, one is Scala and React, all communicate with a centralized MySQL
             database via a dedicated API server. Our CSS libraries are fragmented between Bootstrap, Bulma, Tailwind,
-            and hand written scss. We are attempting to unify to a single tailwind install. We have excellent back end
+            and handwritten scss. We are attempting to unify to a single tailwind install. We have excellent back end
             test coverage, and are working to develop a cypress driven front end test suite to match.
         </p>
     </div>
