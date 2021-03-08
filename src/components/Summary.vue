@@ -12,8 +12,7 @@
         </p>
 
         <p>
-            I enjoy VS Code as my editor, Linux as my OS, Agile as a loose philosophy, and any reasonable MVC or MVVM
-            framework.
+            I am most at home in Laravel, Vue and Tailwind.
         </p>
     </div>
 </template>

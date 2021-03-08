@@ -23,23 +23,23 @@ export default {
     data() {
         return {
             skills: [
-                { name: 'Frontend code</span>', list: ['Vue', 'React', 'jQuery', 'Webix'] },
+                { name: 'Frontend code', list: ['Vue', 'React', 'jQuery', 'Webix'] },
 
                 { name: 'Frontend design', list: ['Tailwind', 'Bootstrap', 'Bulma', 'Scss'] },
 
-                { name: 'Mobile & Desktop', list: ['Vue Native', 'Cordova', 'Livecode', 'Electron'] },
-
                 {
-                    name: 'Backend code',
-                    list: ['Laravel', 'Wordpress', 'EmberJS', 'MySQL / Mongo'],
+                    name: 'Backend',
+                    list: ['Laravel', 'Cake PHP', 'EmberJS', 'MySQL / Mongo'],
                 },
+
+                { name: 'Mobile & Desktop', list: ['Vue Native', 'Cordova', 'Electron'] },
 
                 {
                     name: 'Infrastructure',
-                    list: ['AWS / G-Suite', 'Apache / Nginx', 'MailChimp / Iterable', 'Paypal / Synapse'],
+                    list: ['AWS', 'MailChimp / Iterable', 'Paypal / Synapse'],
                 },
 
-                { name: 'Soft skills', list: ['Git', 'Agile', 'Shell', 'Vim'] },
+                { name: 'Soft skills', list: ['Git', 'Agile', 'Shell'] },
             ],
         }
     },

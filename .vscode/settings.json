@@ -1,6 +1,7 @@
 {
     "cSpell.enabled": false,
     "cSpell.enableFiletypes": [
-        "vue"
+        "vue", 
+        "html"
     ]
 }
