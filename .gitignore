@@ -1,7 +1,5 @@
 node_modules
-.env.production
-dist
 .DS_Store
-*.pdf
-applied.md
-.vscode
+dist
+dist-ssr
+*.local
