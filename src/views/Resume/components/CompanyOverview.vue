@@ -3,6 +3,7 @@
     class="
       md:grid
       grid-cols-4
+      print:grid-cols-3
       gap-x-4
       rounded-tl-3xl rounded-tr-3xl
       md:rounded-none
@@ -11,7 +12,7 @@
       md:border-none
     "
   >
-    <div class="w-full md:col-span-1">
+    <div class="print:hidden w-full md:col-span-1">
       <div
         class="
           flex
@@ -76,7 +77,12 @@
         </h2>
         <p v-html="companyDescription" />
       </div>
-      <slot :name="selected" />
+      <div class="print:hidden">
+        <slot :name="selected" />
+      </div>
+      <div class="hidden print:block">
+        <slot name="overview" />
+      </div>
     </div>
   </div>
 </template>
@@ -122,7 +128,6 @@ export default {
 
   methods: {
     handle(key) {
-      console.log(key);
       this.selected = key;
     },
   },
