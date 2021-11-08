@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="flex space-x-2 items-center border-b-2 border-logoBlue pb-2 mb-2">
-      <div class="iconWrapperScope p-2 bg-gray-400 rounded">
+      <div class="iconWrapperScope p-2 bg-logoBlue rounded">
         <slot name="icon" />
       </div>
-      <h2 class="text-xl">
+      <h2 class="text-xl text-logoBlue">
         <slot name="title" />
       </h2>
     </div>

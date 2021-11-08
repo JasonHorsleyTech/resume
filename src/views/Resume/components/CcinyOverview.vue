@@ -1,29 +1,15 @@
 <template>
   <company-overview
-    class="grid grid-cols-4 gap-x-4"
     companyName="CCINY"
     companyDescription="Old school book publishing house"
     workDates="2011 to 2015"
-    :tabs="[
-      {
-        key: 'overview',
-        title: 'Overview',
-      },
-      {
-        key: 'responsibilities',
-        title: 'Responsibilities',
-      },
-      {
-        key: 'skills',
-        title: 'Technologies used',
-      },
-    ]"
+    :tabs="tabs"
   >
     <template v-slot:overview>
       <div class="space-y-2">
         <p>
-          Curriculum Concepts International is an old school well established publishing house, focusing on
-          education content for children.
+          Curriculum Concepts International is an old school well established
+          publishing house, focusing on education content for children.
         </p>
         <p>
           I was hired as originally as a bug tester for a contracted project,
@@ -88,6 +74,23 @@ import List from "@/components/List.vue";
 import CompanyOverview from "./CompanyOverview.vue";
 export default {
   components: { List, CompanyOverview },
-  setup() {},
+  setup() {
+    return {
+      tabs: [
+        {
+          key: "overview",
+          title: "Overview",
+        },
+        {
+          key: "responsibilities",
+          title: `<span class="inline md:hidden">Repos</span><span class="hidden md:inline">Responsibilities</span>`,
+        },
+        {
+          key: "skills",
+          title: `<span class="inline md:hidden">Tech</span><span class="hidden md:inline">Technologies Used</span>`,
+        },
+      ],
+    };
+  },
 };
 </script>

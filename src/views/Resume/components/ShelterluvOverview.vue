@@ -1,23 +1,9 @@
 <template>
   <company-overview
-    class="grid grid-cols-4 gap-x-4"
     companyName="ShelterLuv"
     companyDescription="Animal shelter management SAAS"
     workDates="2021 to Present"
-    :tabs="[
-      {
-        key: 'overview',
-        title: 'Overview',
-      },
-      {
-        key: 'responsibilities',
-        title: 'Responsibilities',
-      },
-      {
-        key: 'skills',
-        title: 'Technologies used',
-      },
-    ]"
+    :tabs="tabs"
   >
     <template v-slot:overview>
       <div class="space-y-2">
@@ -42,26 +28,25 @@
     </template>
 
     <template v-slot:responsibilities>
+      <p>My main job responsibilities are:</p>
       <list
+        class="text-left mt-2 space-y-2"
         :items="[
           'Shelterluv rewrite - Porting the management platform, our main product, from Drupal 8 to multiple Laravel microservices and centralized API without interrupting service.',
           'AdopterLuv - Payment processing, customer account management, and substantial tracking and analytics work for predictive product recommendations (revenue soruce).',
         ]"
-      >
-        My main job responsibilities are:
-      </list>
+      />
     </template>
 
     <template v-slot:skills>
-      <!-- <p>Technical skills:</p> -->
-
       <div class="grid grid-cols-3">
         <list
+          class="text-center md:text-left"
           v-for="({ category, items }, index) in [
             {
               category: 'Frontend',
               items: [
-                'Vue2 and 3',
+                'Vue2/3',
                 'LiveWire',
                 'AlpineJS',
                 'Tailwind',
@@ -73,13 +58,7 @@
             },
             {
               category: 'Backend',
-              items: [
-                'Laravel',
-                'Laravel Dusk',
-                'Laravel Nova',
-                'PhpUnit',
-                'Drupal',
-              ],
+              items: ['Laravel', 'Dusk', 'Nova', 'PhpUnit', 'Drupal'],
             },
             {
               category: 'Misc',
@@ -89,7 +68,9 @@
           :items="items"
           :key="index"
         >
-          <p class="mx-5 border-b border-gray-500" v-text="category" />
+          <div class="mx-1.5 md:mx-5 border-b border-gray-500">
+            <p class="text-center" v-text="category" />
+          </div>
         </list>
       </div>
     </template>
@@ -102,6 +83,23 @@ import CompanyOverview from "./CompanyOverview.vue";
 
 export default {
   components: { List, CompanyOverview },
-  setup() {},
+  setup() {
+    return {
+      tabs: [
+        {
+          key: "overview",
+          title: "Overview",
+        },
+        {
+          key: "responsibilities",
+          title: `<span class="inline md:hidden">Repos</span><span class="hidden md:inline">Responsibilities</span>`,
+        },
+        {
+          key: "skills",
+          title: `<span class="inline md:hidden">Tech</span><span class="hidden md:inline">Technologies Used</span>`,
+        },
+      ],
+    };
+  },
 };
 </script>

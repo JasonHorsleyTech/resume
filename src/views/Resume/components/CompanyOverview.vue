@@ -1,32 +1,78 @@
 <template>
-  <div>
-    <div class="col-span-1">
-      <div class="text-gray-500 flex flex-col justify-top">
-        <p
+  <div
+    class="
+      md:grid
+      grid-cols-4
+      gap-x-4
+      rounded-tl-3xl rounded-tr-3xl
+      md:rounded-none
+      overflow-hidden
+      border
+      md:border-none
+    "
+  >
+    <div class="w-full md:col-span-1">
+      <div
+        class="
+          flex
+          md:flex-col
+          justify-around
+          md:justify-top
+          bg-gray-100
+          md:bg-transparent
+          py-2
+          px-6
+          md:p-0
+        "
+      >
+        <div
           class="
             inline-block
-            whitespace-pre
-            border-b
+            md:border-b
             last:border-0
-            pb-1
-            mb-1
-            cursor-pointer
-            hover:opacity-75
-            text-left
+            md:pb-1 md:mb-1
+            w-full
+            text-center
+            md:text-left
           "
           v-for="{ title, key } in tabs"
           :key="key"
-          :class="[selected == key ? 'text-black' : '']"
+          :class="[
+            selected == key
+              ? 'text-logoBlue font-bold'
+              : 'text-gray-800 cursor-pointer hover:opacity-75',
+          ]"
           @click="handle(key)"
         >
-          {{ title }}
-        </p>
+          <p v-html="title" />
+        </div>
       </div>
     </div>
-    <div class="col-span-3">
-      <div class="col-span-full font-semibold mb-4">
-        <h2 class="text-xl">
-          {{ companyName }} - {{ workDates }}
+    <div
+      class="
+        md:col-span-3
+        border border-l-0 border-r-0
+        md:border-none
+        px-2
+        pb-6
+        bg-transparent-white-500
+        md:bg-transparent
+      "
+    >
+      <div
+        class="
+          col-span-full
+          font-semibold
+          my-4
+          md:mt-0
+          text-center
+          md:text-left
+        "
+      >
+        <h2 class="text-xl flex flex-col md:block mb-2">
+          <span>{{ companyName }}</span>
+          <span class="hidden md:inline"> - </span>
+          <span>{{ workDates }}</span>
         </h2>
         <p v-html="companyDescription" />
       </div>

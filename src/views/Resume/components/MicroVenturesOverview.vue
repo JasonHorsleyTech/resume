@@ -1,23 +1,9 @@
 <template>
   <company-overview
-    class="grid grid-cols-4 gap-x-4"
     companyName="MicroVentures"
     companyDescription="Accredited and Crowdfunding investment platform"
     workDates="2019 to 2021"
-    :tabs="[
-      {
-        key: 'overview',
-        title: 'Overview',
-      },
-      {
-        key: 'responsibilities',
-        title: 'Responsibilities',
-      },
-      {
-        key: 'skills',
-        title: 'Technologies used',
-      },
-    ]"
+    :tabs="tabs"
   >
     <template v-slot:overview>
       <div class="space-y-2">
@@ -91,6 +77,23 @@ import List from "@/components/List.vue";
 import CompanyOverview from "./CompanyOverview.vue";
 export default {
   components: { List, CompanyOverview },
-  setup() {},
+  setup() {
+    return {
+      tabs: [
+        {
+          key: "overview",
+          title: "Overview",
+        },
+        {
+          key: "responsibilities",
+          title: `<span class="inline md:hidden">Repos</span><span class="hidden md:inline">Responsibilities</span>`,
+        },
+        {
+          key: "skills",
+          title: `<span class="inline md:hidden">Tech</span><span class="hidden md:inline">Technologies Used</span>`,
+        },
+      ],
+    };
+  },
 };
 </script>
