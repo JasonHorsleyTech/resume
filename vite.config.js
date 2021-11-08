@@ -11,7 +11,7 @@ export default ({ command }) => ({
         manifest: true,
         outDir: 'public/dist',
         rollupOptions: {
-            input: 'resources/js/app.js',
+            input: 'src/main.js',
         },
     },
     resolve: {
