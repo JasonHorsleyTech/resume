@@ -1,13 +1,13 @@
 {
-  "src/main.js": {
-    "file": "assets/main.12fec253.js",
-    "src": "src/main.js",
+  "index.html": {
+    "file": "assets/index.7e4833b1.js",
+    "src": "index.html",
     "isEntry": true,
     "imports": [
       "_vendor.e850a316.js"
     ],
     "css": [
-      "assets/main.49f39011.css"
+      "assets/index.c3bd206b.css"
     ],
     "assets": [
       "assets/logo.46d30de6.png"

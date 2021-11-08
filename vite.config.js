@@ -1,4 +1,4 @@
-const path = require('path');
+const { resolve } = require('path');
 import vue from "@vitejs/plugin-vue";
 
 export default ({ command }) => ({
@@ -8,12 +8,12 @@ export default ({ command }) => ({
     build: {
         manifest: true,
         rollupOptions: {
-            input: 'src/main.js',
+            input: resolve(__dirname, 'index.html'),
         },
     },
     resolve: {
         alias: [
-            { find: "@", replacement: path.resolve(__dirname, '/src') }
+            { find: "@", replacement: resolve(__dirname, '/src') }
         ],
     },
 });
