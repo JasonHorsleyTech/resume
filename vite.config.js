@@ -3,7 +3,7 @@ import vue from "@vitejs/plugin-vue";
 
 export default ({ command }) => ({
     publicDir: "disable",
-    base: command === "build" ? "/dist/" : "",
+    base: command === "build" ? "/public/dist/" : "",
     plugins: [
         vue(),
     ],
