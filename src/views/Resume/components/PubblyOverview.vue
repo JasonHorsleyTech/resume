@@ -23,10 +23,10 @@
         </p>
         <p>
           I was the only fulltime developer during most of the project. The
-          workplace environment could best have been described as "injecting
-          literal gallons of black coffee into my veins". It was fun and
-          rewarding, I am ultimately proud of what we were able to accomplish,
-          and I never want to attempt something like it again.
+          workplace environment could best be described as "injecting literal
+          gallons of black coffee into my veins". It was fun and rewarding, I am
+          ultimately proud of what we were able to accomplish, and I never want
+          to attempt something like it again.
         </p>
       </div>
     </template>
@@ -37,16 +37,17 @@
           'Pubbly Design Tools - Desktop design tools that allowed non-developers to create custom gamified ebook experiences.',
           'Pubbly Engine - Custom JS runtime environment to run gamefied ebooks.',
           'Pubbly Console - CMS focused on translation, localization, and packaging books into andrid deployable structured lesson plans.',
-          'Pubbly Market - An attempted subdomainable storefront for sale to US school districts.',
+          'Pubbly Market - An attempted subdomainable storefront licensed to US school districts.',
         ]"
       >
-        My main job responsibilities were:
+        <p class="pb-2">My job responsibilities were:</p>
       </list>
     </template>
 
     <template v-slot:skills>
       <div class="grid grid-cols-3">
         <list
+          class="text-center md:text-left"
           v-for="({ category, items }, index) in [
             {
               category: 'Frontend',

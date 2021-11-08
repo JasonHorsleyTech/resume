@@ -8,18 +8,16 @@
     <template v-slot:overview>
       <div class="space-y-2">
         <p>
-          Curriculum Concepts International is an old school well established
-          publishing house, focusing on education content for children.
-        </p>
-        <p>
-          I was hired as originally as a bug tester for a contracted project,
-          but brought on full time after the project ended.
+          Curriculum Concepts International is a publishing house, focusing on
+          educational content for children. I was originally hired as a bug
+          tester for a contracted project, but brought on full time after the
+          project ended.
         </p>
         <p>
           My job description was "catchall software guy". I developed and
           maintained some wordpress sites and internal company servers. I did
           some prototype game development using GameMaker8, Construct2, and
-          Unity. I created a custom ePub3 compliant test maker.
+          Unity. I additionally developed a custom ePub3 compliant test maker.
         </p>
         <p>
           I toyed around with the idea of desktop design tools where you could
@@ -38,13 +36,14 @@
           'Quiz exporter - Prototyped a custom desktop app to design simple quizes and eventually export to an ePub3 compliant online format.',
         ]"
       >
-        My main job responsibilities were:
+        <p class="pb-2">My job responsibilities were:</p>
       </list>
     </template>
 
     <template v-slot:skills>
       <div class="grid grid-cols-3">
         <list
+          class="text-center md:text-left"
           v-for="({ category, items }, index) in [
             {
               category: 'Frontend',

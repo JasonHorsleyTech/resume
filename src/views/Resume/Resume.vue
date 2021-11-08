@@ -53,7 +53,7 @@
         <template v-slot:icon>
           <bullseye class="text-white" />
         </template>
-        <template v-slot:title> Objective </template>
+        <template v-slot:title> Objectives </template>
         <div class="space-y-2">
           <p>
             My goal is complete financial independence within 10 years. To
@@ -62,8 +62,8 @@
             avoid early burnout.
           </p>
           <p>
-            My ideal job is full stack Laravel+Vue, where the bulk of any given
-            work day is spent writing or maintaining actual code.
+            My ideal job is full stack Laravel+Vue, where the bulk of my time is
+            spent writing or maintaining actual code.
           </p>
         </div>
       </flex-section>
@@ -80,8 +80,8 @@
             previously enjoyed living abroad in South American.
           </p>
           <p>
-            We have a {{ howOldsMyKid }} son and have since become substantially
-            more boring.
+            After the birth of our {{ howOldsMyKid }} son, we both became
+            substantially more boring.
           </p>
         </div>
       </flex-section>

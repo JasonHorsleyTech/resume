@@ -28,7 +28,7 @@
     </template>
 
     <template v-slot:responsibilities>
-      <p>My main job responsibilities are:</p>
+      <p class="pb-2">My main job responsibilities are:</p>
       <list
         class="text-left mt-2 space-y-2"
         :items="[
@@ -69,7 +69,7 @@
           :key="index"
         >
           <div class="mx-1.5 md:mx-5 border-b border-gray-500">
-            <p class="text-center" v-text="category" />
+            <p v-text="category" />
           </div>
         </list>
       </div>

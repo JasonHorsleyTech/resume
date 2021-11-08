@@ -9,17 +9,14 @@
       <div class="space-y-2">
         <p>
           MicroVentures is an investment platform focused mainly on RegD and
-          RegCF investments. It was a small company with a tiny team of 4
-          engineers. We were all full stack and worked on anything required to
-          facilitate the operations of the rest of the company.
+          RegCF raises. I worked in a small team of 4 engineers.
         </p>
         <p>
           The company still operates inside an Austin office space in "The
           Domain". It was a typical fast paced startup environment, where
-          requirements were "everything" and deadlines were "yesterday". It was
-          enjoyable for a time, and I do feel like I learned many useful skills
-          at a faster pace, but it was a difficult pace to maintain
-          indefinitely.
+          deadlines were "yesterday" and requirements were "every feature". It
+          was enjoyable for a time and I did learn a lot, but it was a difficult
+          pace to maintain indefinitely.
         </p>
       </div>
     </template>
@@ -33,13 +30,14 @@
           'MV Native - Stripped down version of MV invest, ported to VueNative for mobile iOS app',
         ]"
       >
-        My main job responsibilities were:
+        <p class="pb-2">My job responsibilities were:</p>
       </list>
     </template>
 
     <template v-slot:skills>
       <div class="grid grid-cols-3">
         <list
+          class="text-center md:text-left"
           v-for="({ category, items }, index) in [
             {
               category: 'Frontend',
@@ -49,7 +47,6 @@
                 'Tailwind',
                 'Bulma',
                 'Bootstrap',
-                'Jest',
                 'Cypress',
               ],
             },
