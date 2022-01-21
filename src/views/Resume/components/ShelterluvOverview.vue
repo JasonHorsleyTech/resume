@@ -32,8 +32,8 @@
       <list
         class="text-left mt-2 space-y-2"
         :items="[
-          'Shelterluv rewrite - Porting the management platform, our main product, from Drupal 8 to multiple Laravel microservices and centralized API without interrupting service.',
-          'AdopterLuv - Payment processing, customer account management, and substantial tracking and analytics work for predictive product recommendations (revenue soruce).',
+          'Shelterluv rewrite - Porting the management platform, our main product, from Drupal 8 to multiple Vue3 SPAs consuming a laravel API backend without interrupting service.',
+          'AdopterLuv - Payment processing, customer account management, and substantial tracking and analytics work for predictive product recommendations.',
         ]"
       />
     </template>
