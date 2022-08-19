@@ -22,11 +22,11 @@
         <div class="space-y-2">
           <p>
             I am a full stack web developer in Austin Texas with
-            {{ moment().years() - 2011 }} years experience.
+            {{ moment().year() - 2011 }} years experience.
           </p>
           <p>
             I have worked in many different environments, but feel happiest and
-            most powerful with Laravel and Vue in a small and agile team. I
+            most powerful with Laravel+Vue+Tailwind in a small and agile team. I
             communicate well with design, product, or marketing; But I can also
             handle longer term self directed work.
           </p>

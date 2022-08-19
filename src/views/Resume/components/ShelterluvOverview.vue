@@ -19,7 +19,7 @@
         <p>
           The company is based in California, but all workers are remote. We
           follow a loose agile format with daily standups and tickets on a jira
-          board, and have a very flat management structure. All engineers are
+          board. We enjoy a very flat management structure. All engineers are
           experienced and full stack. We often pair up for a larger scale (>3
           weeks) projects, but most work is self directed and as such we have a
           healthy respect for writing and maintaining tests.
@@ -32,7 +32,7 @@
       <list
         class="text-left mt-2 space-y-2"
         :items="[
-          'Shelterluv rewrite - Porting the management platform, our main product, from Drupal 8 to multiple Vue3 SPAs consuming a laravel API backend without interrupting service.',
+          'Shelterluv rewrite - Porting the management platform, our main product, from Drupal 8 to a main Livewire stack and a few vue3 micro-spas.',
           'AdopterLuv - Payment processing, customer account management, and substantial tracking and analytics work for predictive product recommendations.',
         ]"
       />
@@ -47,7 +47,6 @@
               category: 'Frontend',
               items: [
                 'Vue2/3',
-                'LiveWire',
                 'AlpineJS',
                 'Tailwind',
                 'Bootstrap',
@@ -58,7 +57,7 @@
             },
             {
               category: 'Backend',
-              items: ['Laravel', 'Dusk', 'Nova', 'PhpUnit', 'Drupal'],
+              items: ['Laravel', 'LiveWire', 'Dusk', 'Nova', 'PhpUnit', 'Drupal'],
             },
             {
               category: 'Misc',
