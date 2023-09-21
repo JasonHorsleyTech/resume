@@ -12,9 +12,9 @@
           shelters in the United States.
         </p>
         <p>
-          It's a small company with a heavy emphasis on engineering. I was
-          originally hired full stack, but have slowly moved into a more
-          front-end heavy role for the purposes of balance.
+          It's a small company with a heavy emphasis on engineering. I was hired
+          full stack for the commerce team, but have floated around to other
+          teams as needed.
         </p>
         <p>
           The company is based in California, but all workers are remote. We
@@ -34,6 +34,7 @@
         :items="[
           'Shelterluv rewrite - Porting the management platform, our main product, from Drupal 8 to a main Livewire stack and a few vue3 micro-spas.',
           'AdopterLuv - Payment processing, customer account management, and substantial tracking and analytics work for predictive product recommendations.',
+          'MicrochipRegistry - Greenfield laravel, leveraging InertiaJS and vue3 with ts. I was 100% responsible for the frontend.',
         ]"
       />
     </template>
@@ -47,6 +48,7 @@
               category: 'Frontend',
               items: [
                 'Vue2/3',
+                'InertiaJS',
                 'AlpineJS',
                 'Tailwind',
                 'Bootstrap',
@@ -57,11 +59,20 @@
             },
             {
               category: 'Backend',
-              items: ['Laravel', 'LiveWire', 'Dusk', 'Nova', 'PhpUnit', 'Drupal'],
+              items: [
+                'Laravel',
+                'LiveWire',
+                'Nova',
+                'Dusk',
+                'PhpUnit',
+                'Drupal',
+                'MySQL',
+                'Docker'
+              ],
             },
             {
-              category: 'Misc',
-              items: ['MySQL', 'Docker', 'AWS tools', 'Redshift'],
+              category: 'Finance',
+              items: ['Stripe', 'Stax'],
             },
           ]"
           :items="items"

@@ -6,47 +6,55 @@ I am a full stack web developer in Austin Texas with 11 years experience.
 I have worked in many different environments, but feel happiest and most powerful with Laravel and Vue in a small and agile team. I communicate well with design, product, or marketing; But I can also handle longer term self directed work.
 
 ## Experience
-### **ShelterLuv** - 2021 to Present
-ShelverLuv provides management software to a majority of animal shelters in the United States.
+### **ShelterLuv** - Full Stack Engineer, 2021 to Present
 
-It's a small company with a heavy emphasis on engineering. I was originally hired full stack, but have slowly moved into a more front-end heavy role for the purposes of balance.
+Based in California but operating in a remote-first model, ShelterLuv dominates the U.S. market as the go-to Software as a Service (SaaS) solution for animal shelter management. I was initially hired for the commerce team but quickly transitioned into a flexible, full-stack role, addressing engineering needs across multiple departments. 
 
-The company is based in California, but all workers are remote. We follow a loose agile format with daily standups and tickets on a jira board. We enjoy a very flat management structure. All engineers are experienced and full stack. We often pair up for a larger scale (>3 weeks) projects, but most work is self directed and as such we have a healthy respect for writing and maintaining tests.
+Our engineering culture operates on a flat organizational structure, adhering to a loose Agile methodology that involves daily standups and issue tracking via JIRA. We value autonomous work but also engage in pair programming for large-scale projects exceeding three weeks in duration. Maintaining robust test suites is an acknowledged best practice within our team.
 
-#### Responsibilities
+#### **Key Contributions**
 
-* Shelterluv rewrite - Porting the management platform, our main product, from Drupal 8 to a main Livewire stack and a few vue3 micro-spas.
-* AdopterLuv - Payment processing, customer account management, and substantial tracking and analytics work for predictive product recommendations.
+* **ShelterLuv Rewrite**: Spearheaded the migration of the core management platform from Drupal 8 to a Livewire stack, incorporating Vue3 micro-SPAs to enhance modular scalability.
+* **AdopterLuv**: Orchestrated end-to-end payment processing and customer account management functionalities, while implementing sophisticated tracking and analytics for predictive product recommendations.
+* **MicrochipRegistry**: Solely accountable for the frontend development of this greenfield project, built on a Laravel backend and utilizing InertiaJS and Vue3 with TypeScript.
 
-| Frontend       | Backend        | Misc                |
-| :-----------------:----------------:----------------: |
-| Vue2/3         | Laravel        | MySQL               |
-| AlpineJS       | LiveWire       | Docker              |
-| Tailwind       | Nova           | AWS tools           |
-| Jest           | PhpUnit        | Redshift            |
-| Cypress        | Drupal         |                     |
+#### **Technical Skillset**
+
+| Frontend    | Backend     | Finance   |
+| ----------- | ----------- | --------- |
+| Vue2/3      | Laravel     | Stripe    |
+| InertiaJS   | Livewire    | Stax      |
+| AlpineJS    | Nova        |           |
+| Tailwind    | Dusk        |           |
+| Bootstrap   | PhpUnit     |           |
+| SCSS        | Drupal      |           |
+| Jest        | MySQL       |           |
+| Cypress     | Docker      |           |
 
 
-### **MicroVentures** - 2019 to 2021
-MicroVentures is an investment platform focused mainly on RegD and RegCF raises. I worked in a small team of 4 engineers.
+### **MicroVentures** - Software Engineer, 2019 to 2021
 
-The company still operates inside an Austin office space in "The Domain". It was a typical fast paced startup environment, where deadlines were "yesterday" and requirements were "every feature". It was enjoyable for a time and I did learn a lot, but it was a difficult pace to maintain indefinitely.
+Located at The Domain in Austin, MicroVentures operates as an accredited and crowdfunding investment platform with a primary focus on Regulation D (RegD) and Regulation Crowdfunding (RegCF) investment opportunities. I was a pivotal member of a lean, four-person engineering team. Our environment epitomized startup culture: high-velocity, feature-rich, and deadline-driven.
 
-#### Responsibilities
+#### **Key Contributions**
 
-* MV API - Laravel backend, acting as single source of truth for company
-* MV Invest - Investor facing vue spa. Presented offers based on eligibility, sold long term investments, gave regular portfolio updates.
-* MV Manager - Internal platform for other teams in office (customer relations, due dilligence, marketing, and investor vetting teams).
-* MV Native - Stripped down version of MV invest, ported to VueNative for mobile iOS app
+* **MV API**: Engineered and maintained the Laravel backend, which served as the architectural cornerstone and single source of truth for the organization.
+* **MV Invest**: Crafted an intuitive, investor-centric Single Page Application (SPA) using Vue.js. The platform dynamically presented investment opportunities based on eligibility criteria, facilitated long-term investment transactions, and provided real-time portfolio analytics.
+* **MV Manager**: Developed a comprehensive internal management system, streamlining workflows for customer relations, due diligence, marketing, and investor vetting departments.
+* **MV Native**: Spearheaded the development of a mobile-responsive version of MV Invest, leveraging Vue Native and Swift for iOS compatibility.
 
-| Frontend           | Backend            | Misc                |
-| :-----------------:| :-----------------:| :-----------------: |
-| Vue2               | Laravel            | MySQL               |
-| React              | Scala              | Docker              |
-| Tailwind           | Nova               | Vue Native          |
-| Bulma              | PhpUnit            | Swift               |
-| Bootstrap          |                    | Synapse             |
-| Cypress            |                    |                     |
+#### **Technical Skillset**
+
+| Frontend    | Backend     | Finance   |
+| ----------- | ----------- | --------- |
+| Vue2        | Laravel     | Stripe    |
+| React       | Laravel Nova| Synapse   |
+| Tailwind    | PhpUnit     |           |
+| Bulma       | MySQL       |           |
+| Bootstrap   |             |           |
+| Cypress     |             |           |
+| Vue Native  |             |           |
+| Swift       |             |           |
 
 ### **Pubbly** - 2019 to 2015
 Pubbly was an experimental offshoot of an established New York book publishing house. It was an attempt to quickly and cheaply digitize their owned intellectual properties, and bring childrens' education into the modern age.

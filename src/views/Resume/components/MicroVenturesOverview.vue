@@ -26,7 +26,7 @@
         :items="[
           'MV API - Laravel backend, acting as single source of truth for company',
           'MV Invest - Investor facing vue spa. Presented offers based on eligibility, sold long term investments, gave regular portfolio updates.',
-          'MV Manager - Internal platform for other teams in office (customer relations, due dilligence, marketing, and investor vetting teams).',
+          'MV Manager - Internal platform for other teams in office (customer relations, due diligence, marketing, and investor vetting teams).',
           'MV Native - Stripped down version of MV invest, ported to VueNative for mobile iOS app',
         ]"
       >
@@ -43,6 +43,8 @@
               category: 'Frontend',
               items: [
                 'Vue2',
+                'Vue Native',
+                'Swift',
                 'React',
                 'Tailwind',
                 'Bulma',
@@ -52,11 +54,11 @@
             },
             {
               category: 'Backend',
-              items: ['Laravel', 'Laravel Nova', 'PhpUnit'],
+              items: ['Laravel', 'Laravel Nova', 'PhpUnit', 'MySQL'],
             },
             {
-              category: 'Misc',
-              items: ['MySQL', 'Docker', 'Vue Native', 'Swift', 'Synapse'],
+              category: 'Finance',
+              items: ['Stripe', 'Synapse'],
             },
           ]"
           :items="items"
