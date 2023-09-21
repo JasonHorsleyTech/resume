@@ -1,54 +1,41 @@
 # Jason Horsley - Full Stack Engineer
 
+Cover letters are a waste of your time.
+
+I want an in person job. I want laravel at scale. Your glassdoor reviews said "code first" and I got excited.
+
+Here are my condensed qualifications.
+
 ## Stack & Goals
 
-* **Main Tech**: Laravel, Vue, Tailwind
-* **Secondary Tech**: Livewire, Alpine, InertiaJS, TypeScript, Python.
+* **Main**: Laravel, Vue, Tailwind, MySQL
+* **Secondary**: Livewire, Alpine, InertiaJS, TypeScript, React, Python, Swift, Shell.
 * **Ethos**: Tech is temporary. "Maintainable" is great. "Delivered" is better.
 * **Objective**: Full stack, in person, long term.
 
 ## Experience
 
-#### ShelterLuv - Senior Full Stack Engineer (2021 - Present)
-* **Environment**: Agile, Remote
-* **Tech**: Laravel, Livewire, Vue3, TypeScript, Tailwind.
-* **Business**: Pet shelter management SAAS, point of sale mobile checkout.
-* **Responsibilities**:
-  * Rewrite: Migrated from outsourced Drupal 8 to Livewire+Vue3.
-  * Payment: Built and maintained Stripe/Stax payments mobile app and in-person kiosk.
-  * MicrochipRegistry: Greenfield. Owned frontend, Inertia + Vue3 with TS, Tailwind. Focus on mobile and accessibility.
+#### ShelterLuv: 2021 - Present
+Pet shelter management SAAS and point of sale mobile checkout.
 
-#### MicroVentures - Software Engineer (2019 - 2021)
-* **Environment**: Fintech Startup, Deadline-Driven
-* **Tech**: Laravel, Vue, Bank integrations
-* **Business** Reg D investment platform.
-* **Responsibilities**:
-  * MV-Api: Developed backend that handled initial investment allocations via custody accounts, and subsequent high-volume liquidity events during pivotal 'Unicorn' transitions.
-  * MV-Invest: Owned the vue2 SPA that sold those investments.
+* Migrated legacy Drupal 8 to modern Laravel, Livewire, and Vue3.
+* Implemented Stripe/Stax for mobile POS and kiosk solutions.
+* Developed an accessible, mobile-focused greenfield Microchip Registry using Inertia + Vue3.
+#### MicroVentures: 2019 - 2021
+Fintech Startup, Reg D investment platform.
+* Engineered core fintech backend for high-stakes unicorn liquidity events.
+* Owned investment frontend SPA in Vue2.
 
-#### Pubbly - Lead Developer (2015 - 2019)
-* **Environment**: Panic and Coffee
-* **Business** Elon Musk charity competition to "teach swahili in rural Uganda with tablets"
-* **Tech**: PHP, Javascript, Livecode.
-  * Built desktop app for interactive e-book design.
-  * Created custom JavaScript runtime for said e-books.
-  * Engineered a licensable storefront for U.S. schools, the post competition pivot.
+#### Pubbly: 2015 - 2019
+Elon Musk charity competition to "teach swahili in rural Uganda with tablets"
+* Conceived desktop e-book design app and custom JS runtime.
+* Pivoted post-competition to licensable e-storefront for U.S. schools.
 
-#### CCINY - Software Engineer (2011 - 2015)
-* **Environment**: Developer
-* **Business** Old school publishing house trying anything to break into the digital space.
-* **Tech**: CakePHP, Wordpress, Unity, Construct2
-* **Responsibilities**:
-  * Built ePub3 compliant test maker.
-  * Converted old flash games to HTML5 using Construct2 and JS plugin
-  * Built cake platform to manage cheap outsourced and aspiring "game devs"
+#### CCINY: 2011 - 2015
+Old school publishing house trying anything to break into the digital space
+* Developed ePub3 test-maker and flash-to-HTML5 game conversions.
+* Built a dev management platform for outsourced and novice talent.
 
 ## Personal
 * **Interests**: Board games, Accordion
 * **Life**: 2 kids, 1 wife, no sleep
-
-## Contact
-
-* **GitHub**: [JasonHorsleyTech](https://github.com/JasonHorsleyTech)
-* **Email**: Jason@JasonHorsley.tech
-* **Phone**: 512-202-6952

@@ -8,7 +8,7 @@ Veteran Full Stack Engineer boasting 11 years of hands-on experience in Laravel 
 
 ## ShelterLuv - Full Stack Engineer, 2021 to Present
 
-California-based but operating with a remote-first culture, ShelterLuv leads in animal shelter management software. Initially onboarded to commerce team, later pivoted to a multi-disciplinary engineering role.
+Remote-first industry leader in animal shelter management software. Transitioned from commerce team to a cross-functional engineering role.
 
 #### Organizational Dynamics
 
@@ -73,6 +73,36 @@ Publishing house specialized in children's educational content. Hired as a QA te
 * **Game Prototyping:** Developed proof-of-concept educational games using Unity and GameMaker8.
 * **Interactive Design:** Conceptualized and created a desktop tool to transform static books into interactive e-books.
 
+
+---
+
+## Lessons
+
+#### Be kind, not nice.
+
+At Pubbly, I had the responsibility to manage an outsourced developer from the Philippines. While initial progress was smooth, the developer began to lag in productivity. Instead of confronting the issue head-on and providing targeted guidance, I chose to sidestep the issue to avoid conflict. He missed his deadlines and ultimately lost the job. The lesson: I purchased the luxury of "I don't want to upset him" at his own expense.
+
+Choose kindness over mere niceness.
+
+#### Data talks
+
+At MicroVentures, we moved from Laravel monolith to a SPA and API. Hooking into vue-router and axios, all requests and navigation events were logged. Using only a few tables, we could reconstruct complete site journeys.
+
+This level of granular tracking was absent when I transitioned ot Shelterluv, a startup with a less mature stack and fragmented tracking systems. Bugs were harder to isolate, slower to surface, and twice the time investment to fix.
+
+We got approval for a "2 sprint rework". We prioritized tracking. A few months post release, it's clear the investment has paid off, and will only continue to compound.
+
+#### There's more than you think
+
+At MicroVentures, one of my early tasks was to decouple Vue pages from a Laravel monolith to create a SPA. Initial estimates were optimistic: "No more than a month," we said. I was excited to get started.
+
+As I dug in, I discovered forgotten, yet critical, features that had complex backend dependencies. Each discovery inflated the timeline, turning my 'one-month' project into a two-month ordeal.
+
+The lesson here is twofold: 
+
+* First, no 5 year old codebase is "simple". There are features the owner hasn't thought about in years, but once reminded, won't be able to live without. An in-depth audit before writing the first line of code is non-negotiable.
+* Second, if the initial scoping feels protracted, consider it a red flag that the project is under-budgeted. Scoping is an early warning system.
+
 ---
 
 ## Personal
@@ -89,6 +119,6 @@ I used to live in Latin America with my wife, but after two kids we became subst
 
 > GitHub: github.com/JasonHorsleyTech
 >
-> Email:  Jason@JasonHorsley.tech
+> Email: Jason@JasonHorsley.tech
 >
-> Phone:  512-202-6952
+> Phone: 512-202-6952
